@@ -35,14 +35,14 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .element, .h3-title {
-  list-style:none;
+  list-style: none;
 }
-.input, .button{
-  outline:none;
+.input, .button {
+  outline: none;
 }
 .button {
   background: none;
@@ -141,14 +141,14 @@
 
 /* Edit Task */
 .element .input-text {
-  display:none
+  display: none
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
