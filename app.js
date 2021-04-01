@@ -44,6 +44,7 @@ var createNewTaskElement=function(taskString){
     listItem.className="section__element";
     label.className="section__task label";
     checkBox.className="section__input section__input-checkbox";
+    deleteButtonImg.className="section__img";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="section__edit section__button";
