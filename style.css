@@ -26,7 +26,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.section__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -126,12 +126,12 @@
 .section__element > .section__button.section__delete:hover {
   color: #cf2323;
 }
-.section__button.section__delete img {
+.section__button.section__delete .section__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.section__button.section__delete img:hover {
+.section__button.section__delete .section__img:hover {
   transform: rotateZ(0);
 }
 
