@@ -34,19 +34,19 @@
 .tasks-wrapper {
   display: flex;
 }
-.list {
+.section__list {
   margin: 0;
   padding: 0px;
 }
-.element,
+.section__element,
 .h3-title {
   list-style: none;
 }
-.input,
-.button {
+.section__input,
+.section__button {
   outline: none;
 }
-.button {
+.section__button {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +55,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.button:hover {
+.section__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -69,7 +69,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.input-text {
+.section__input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -81,7 +81,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.input-text:focus {
+.section__input-text:focus {
   color: #333;
 }
 
@@ -93,12 +93,12 @@
 #new-task {
   width: 318px;
 }
-#top-section-adding > .button:hover {
+#top-section-adding > .section__button:hover {
   color: #0fc57c;
 }
 
 /* Task list */
-.element {
+.section__element {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -107,31 +107,31 @@
   justify-content: space-between;
   align-items: center;
 }
-.element > * {
+.section__element > * {
   vertical-align: middle;
 }
 
-.element > .input-checkbox {
+.section__element > .section__input-checkbox {
   margin: 0 10px;
 }
-.element > .label {
+.section__element > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.element > .input-text {
+.section__element > .section__input-text {
   width: 226px;
 }
-.element > .button.delete:hover {
+.section__element > .section__button.section__delete:hover {
   color: #cf2323;
 }
-.button.delete img {
+.section__button.section__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete img:hover {
+.section__button.section__delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -142,15 +142,15 @@
 }
 
 /* Edit Task */
-.element .input-text {
+.section__element .section__input-text {
   display: none;
 }
 
-.edit-mode .input-text {
+.section__edit-mode .section__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label {
+.section__edit-mode .label {
   display: none;
 }
